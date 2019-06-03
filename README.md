@@ -13,10 +13,11 @@ SARIMAX:
   We first ran a SARIMAX model to see how well our exogenous variables would perform. We put together a pipeline of different combinations to check the AIC score for our best model. After running the SARIMAX model we found that the TEA index was the only one with a p-value that we could use.
   ![plot](https://github.com/denisdunn/mod_4_Time_Series/blob/master/Screen%20Shot%202019-05-30%20at%207.22.03%20PM.png)
   ![plot](https://github.com/denisdunn/mod_4_Time_Series/blob/master/Screen%20Shot%202019-05-30%20at%2012.17.40%20PM.png)
+  ![plot](https://github.com/denisdunn/mod_4_Time_Series/blob/master/Screen%20Shot%202019-05-30%20at%209.56.45%20AM.png)
 Prophet:
   Our final model was the facebook Prophet model. It took all of our exogenous and made what looked like a rolling mean prediction. They stock took a dive right where we started predicted which made it a much tougher prediction.
   ![plot](https://github.com/denisdunn/mod_4_Time_Series/blob/master/Screen%20Shot%202019-05-30%20at%206.08.38%20PM.png)
-  ![plot](https://github.com/denisdunn/mod_4_Time_Series/blob/master/Screen%20Shot%202019-05-30%20at%209.56.45%20AM.png)
+  
  Silver lining:
   After reviewing monthly price data vs monthly prediction data we found that 7 out of 11 time periods we correctly predicted the direction of the stock.
     
